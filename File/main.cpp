@@ -23,6 +23,7 @@ int main()
 		cout << "File can`t be created";
 		return 1;
 	}
+
 	else
 	{
 		fwrite(arr, sizeof(double), N, ptrOutFile);
